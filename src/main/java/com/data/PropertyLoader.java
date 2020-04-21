@@ -34,7 +34,7 @@ public class PropertyLoader {
 		}
 	}
 	
-	public static String getProperty(String environment) {
-		return prop.getProperty(environment);
+	public static String getProperty(Constants key) {
+		return prop.getProperty(key.toString());
 	}
 }
